@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ========== Meta Tags ========== -->
+<meta charset="UTF-8">
+<meta name="description" content="Aisle - Multi-purpose Responsive One Page Template">
+<meta name="keywords" content="Aisle, Bootstrap, Landing page, Template, Business ">
+<meta name="author" content="Vivek Singh Bisht">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Title -->
+<title>Aisle - One Page Template</title>
+
+<!-- Bootstrap CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fontawesome CSS -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto' rel='stylesheet' type='text/css'>
+
+<!-- Bootsnav CSS -->
+<link href="css/bootsnav.css" rel="stylesheet">
+
+<!-- Owl stylesheet -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+
+<!-- Lightbox Theme -->
+<link href="css/lightbox.css" rel="stylesheet">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- PRE LOADER -->
+  <div class="page-loader">
+    <div class="loader"> 
+      <span class="dot dot_1"></span> 
+      <span class="dot dot_2"></span> 
+      <span class="dot dot_3"></span> 
+      <span class="dot dot_4"></span> 
+    </div>
+  </div>
+  <!-- Navigation Section -->
+  <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+      <!-- Start Top Search -->
+      <div class="top-search">
+          <div class="container">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+              </div>
+          </div>
+      </div>
+      <!-- End Top Search -->
+      <div class="container">            
+        <!-- Start Atribute Navigation -->
+        <div class="attr-nav">
+            <ul>
+                <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>
+        <!-- End Atribute Navigation -->
+
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <!-- logo Text Here -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo/logo1.png" class="logo logo-display" alt="">
+                <img src="img/logo/logo2.png" class="logo logo-scrolled" alt="">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero hero_full_screen hero_parallax text-center  parallax-window" data-stellar-background-ratio="0.5">
+    <div class="bg-overlay opacity-6">
+    </div>
+    <div class="hero_parallax_inner">
+      <div class="container">
+        <h3 class="white"><strong>My profile</strong></h3>
+                <img src="img/Avatar/Avatar.jpg"class="imgavt"   alt="Avatar">
+                <div class="jumbotron jumbotron-fluid ">
+                   <h3>Tanakorn Pitakchaichan <br>
+                   5930213034<br>
+                   Facebook : Tanakorn Pitakchaichan<br>
+                Tel : 0909252812 <br>
+                Email : tana_korn01@hotmail.com
+             </h3>
+                   
+
+                
+                </div>
+      </div>
+    </div>
+  </section>
+
+  Make life easier
+
+  
+
+  
+  <!-- SCRIPTS -->
+  <script  src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootsnav.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script  src="js/counterup.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script>
+   $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+  </script>
+  <script>
+  $("#clients").owlCarousel({
+     
+          navigation : true, // Show next and prev buttons
+          slideSpeed : 400,
+          paginationSpeed : 400,
+          singleItem:true,
+          autoPlay: true
+          // "singleItem:true" is a shortcut for:
+          // items : 1, 
+          // itemsDesktop : false,
+          // itemsDesktopSmall : false,
+          // itemsTablet: false,
+          // itemsMobile : false
+     
+      });
+  </script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery.mixitup.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script>
+  $(window).load(function(){
+    $(".page-loader").fadeOut("slow"); 
+  });
+    $.stellar();
+  </script>
+  <script>
+      // Instantiate MixItUp:
+    $('#grid').mixItUp();
+  </script>
+  
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'fadeDuration':900,
+      'imageFadeDuration':600,
+      'positionFromTop':150,
+      'disableScrolling':true
+    })
+    </script>
+    
+</body>
+</html>
